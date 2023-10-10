@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINIONS</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html"><img src="img/logo.png.png"></a>
+            <nav class="links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="characters.html">CHARACTERS</a></li>
+                <li><a href="bananas.html">BANANAS</a></li>
+                <li><a href="contacts.html">CONTACTS</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>IT'S</h2><h1>MINIONS</h1>
+                <p>Very sociable and friendly creatures. They love to have fun<br>and are always ready to help their master. They are also very resourceful and can come up with the craziest plans.</p>
+                <a href="https://www.illumination.com/movie/minions/">Learn More</a>
+        </div>
+        <div class="imgBox">
+            <img src="img/Bob.png" class="minion">
+        </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/bob5.png" onclick="imgSlider('img/Bob.png')"></li>
+            <li><img src="img/kevin5.png" onclick="imgSlider('img/Kevin2.png')"></li>
+            <li><img src="img/stuart5.png" onclick="imgSlider('img/Stuart.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/minions"><img src="img/facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/minions/"><img src="img/instagram.png"></a></li>
+            <li><a href="https://twitter.com/Minions"><img src="img/x.png"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.minion').src = anything;
+        }
+    </script>
+</body>
+</html>
